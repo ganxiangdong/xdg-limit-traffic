@@ -1,6 +1,7 @@
 xdg-limit-traffict 是基于openresty的一个请求速率限制库，它基于lua-resty-limit-traffic库，配置十分简单。
 
-##安装
+安装
+====
 
 1.安装[openresty](https://openresty.org)
 
@@ -10,7 +11,8 @@ xdg-limit-traffict 是基于openresty的一个请求速率限制库，它基于l
 
 
 
-##ngixn配置示例：
+ngixn配置示例：
+====
 ```
 lua_shared_dict www.example.com 100m; #配置一个空间，名称和$limit_domain一致，不重复就行, 最后的空间，大小需要足够放置限流所需的键值，以IP为例：每个 $binary_remote_addr 大小不会超过 16K，算上 lua_shared_dict 的节点大小，总共不到 64 字节，100M 可以放约160万个键值对
 server {
