@@ -1,4 +1,4 @@
-xdg-limit-traffict 是一个基于openresty的一个请求速率的一个限制库，它基于openresty的lua-resty-limit-traffic库，配置十分简单。
+xdg-limit-traffict 是基于openresty的一个请求速率限制库，它基于lua-resty-limit-traffic库，配置十分简单。
 
 ##安装
 
