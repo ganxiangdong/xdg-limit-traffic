@@ -7,7 +7,7 @@ xdg-limit-traffict 是基于openresty的一个请求速率限制库，它基于l
 
 2.安装[lua-resty-limit-traffic](https://github.com/openresty/lua-resty-limit-traffic),下载后cp -r lib/resty/limit /usr/local/openresty/lualib/resty/
 
-3.下载[xdg-limit-traffic，下载后 cp -r limit  /usr/local/openresty/lualib/
+3.下载[xdg-limit-traffic](https://github.com/ganxiangdong/xdg-limit-traffic)，下载后 cp -r limit  /usr/local/openresty/lualib/
 
 
 
